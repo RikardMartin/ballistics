@@ -165,6 +165,15 @@ if st.session_state.simulation_run:
                             title=f"Plotting {y_axis} against {x_axis}",
                             labels={x_axis: f'{x_axis}', y_axis: f'{y_axis}'})
             
+            # Customize plot size and background colors
+            fig.update_layout(
+                width=800,  # Set width of the plot
+                height=600,  # Set height of the plot
+                paper_bgcolor='black',  # Background color of the entire plot
+                plot_bgcolor='lightblue',  # Background color of the plotting area
+                title_font_size=20  # Increase the font size of the title
+            )
+            
             # Display the plot in Streamlit
             st.plotly_chart(fig)
         else:
