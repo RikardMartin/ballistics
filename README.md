@@ -50,16 +50,25 @@ with standard drag force
 $\vec{F} = -C\hat{v}v²$
 gives us
 $$\hat{x}: ma_x = -C\cos{(\theta(\vec{v}))}v² \qquad  \hat{y}: ma_y = -C\sin{(\theta(\vec{v}))}v²-mg$$
+
 $$\Leftrightarrow$$
+
 $$\hat{x}: a_x = -\frac{1}{m}C\cos{(\theta(\vec{v}))}v² \qquad  \hat{y}: a_y = -\frac{1}{m}(C\sin{(\theta(\vec{v}))}v²+mg)$$
+
 Substituting
 $\cos{(\theta(\vec{v}))} = v_x/v \quad \textrm{and} \quad \sin{(\theta(\vec{v}))} = v_y/v$
 we can express acceleration as
+
 $$\hat{x}: a_x = -\frac{1}{m}C v_x v \qquad  \hat{y}: a_y = -\frac{1}{m}(C v_y v + mg).$$
+
 $\vec{a}$, $\vec{v}$ and $\vec{r}$ are related by
+
 $$\vec{v} = \vec{v_0} + \vec{a}t$$
+
 $$\vec{r} = \vec{r_0} + \vec{v_0}t + \frac{1}{2}\vec{a}t²$$
+
 and
+
 $$v = \sqrt{v_x² + v_y²}.$$
 
 
