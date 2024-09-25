@@ -76,13 +76,17 @@ $$v = \sqrt{v_x² + v_y²}.$$
 Splitting the above equations into components and discretizing time gives us
 
 $$a_x(t_0) = -\frac{C}{m}v_x(t_0)v(t_0)$$
+
 $$v_x(t_1) = v_x(t_0) + a_x(t_0)\Delta t$$
+
 $$r_x(t_1) = r_x(t_0) + v_x(t_0)\Delta t + \frac{1}{2}a_x(t_0)\Delta t²$$
 
 for *x*,
 
 $$a_y(t_0) = -\frac{1}{m}(Cv_y(t_0)v(t_0) + mg)$$
+
 $$v_y(t_1) = v_y(t_0) + a_y(t_0)\Delta t$$
+
 $$r_y(t_1) = r_y(t_0) + v_y(t_0)\Delta t + \frac{1}{2}a_y(t_0)\Delta t²$$
 
 for *y* and
@@ -94,13 +98,17 @@ for *v*.
 Iterating one timestep we get
 
 $$a_x(t_1) = -\frac{C}{m}v_x(t_1)v(t_1)$$
+
 $$v_x(t_2) = v_x(t_1) + a_x(t_1) \Delta t$$
+
 $$r_x(t_2) = r_x(t_1) + v_x(t_1) \Delta t + \frac{1}{2}a_x(t_1) \Delta t²$$
 
 and same pattern as above for *y*. We can generalize this as
 
 $$a_x(t-1) = -\frac{C}{m}v_x(t-1)v(t-1)$$
+
 $$v_x(t) = v_x(t-1) + a_x(t-1)\Delta t$$
+
 $$r_x(t) = r_x(t-1) + v_x(t-1)\Delta t + \frac{1}{2}a_x(t-1)\Delta t²$$
     
 
